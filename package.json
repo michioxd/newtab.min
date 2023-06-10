@@ -1,0 +1,34 @@
+{
+  "name": "newtab.min",
+  "author": {
+    "name": "michioxd",
+    "email": "michio.haiyaku@gmail.com",
+    "url": "https://github.com/michioxd"
+  },
+  "homepage": "https://github.com/michioxd/newtab.min",
+  "repository": {
+    "url": "https://github.com/michioxd/newtab.min"
+  },
+  "bugs": {
+    "url": "https://github.com/michioxd/newtab.min/issues"
+  },
+  "description": "minimal and simple newtab for your favourite browser",
+  "version": "1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "preact": "^10.13.2",
+    "react-icons": "^4.9.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "sass": "^1.63.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
+}
